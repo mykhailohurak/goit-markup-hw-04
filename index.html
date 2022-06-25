@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="uk">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -20,24 +20,23 @@
         <nav class="header-navigation">
             <a class="header-logo link" href="index.html">Web<span class="header-logo-two">Studio</a>
             <ul class="list nav-list">
-                <li class="nav-item">
-                    <a class="link nav-link current" href="index.html">Студія</a>
-                </li>
-                <li class="nav-item">
-                    <a class="link nav-link" href="portfolio.html">Портфоліо</a>
-                </li>
-                <li class="nav-item">
-                    <a class="link nav-link" href="">Контакти</a>
-                </li>
+                <li class="nav-item"><a class="link nav-link current" href="index.html">Студія</a></li>
+                <li class="nav-item"><a class="link nav-link" href="portfolio.html">Портфоліо</a></li>
+                <li class="nav-item"><a class="link nav-link" href="">Контакти</a></li>
             </ul>
         </nav>
-
         <ul class="list contacts-list">
             <li class="contacts-item">
-                <a class="link contacts-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                <a class="link contacts-link" href="mailto:info@devstudio.com">
+                    <svg class="contacts-icon-mail">
+                        <use href="./images/icons.svg#icon-contacts-mail"></use>
+                    </svg>info@devstudio.com</a>
             </li>
             <li class="contacts-item">
-                <a class="link contacts-link" href="tel:+380961111111">+38 096 111 11 11</a>
+                <a class="link contacts-link" href="tel:+380961111111">
+                    <svg class="contacts-icon-tel">
+                        <use href="./images/icons.svg#icon-contacts-tel"></use>
+                    </svg>+38 096 111 11 11</a>
             </li>
         </ul>
     </div>
@@ -46,7 +45,7 @@
 <main>
 
 <!-- Секція 1 Головний екран -->
-<section class="hero">
+<section class="hero hero-background">
     <div class="container">
         <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
         <button class="hero-btn" type="button">Замовити послугу</button>
@@ -56,21 +55,41 @@
 <!-- Секція 2 Переваги (приховати заголовок) -->
 <section class="section advantage-section">
     <div class="container">
-        <!-- <h2 class="section-title">Переваги</h2> -->
+        <!-- <h2 class="section-title">Преимущества</h2> -->
         <ul class="list advantage-list">
             <li class="advantage-item">
+                <div class="advantage-item-icon">
+                    <svg class="advantage-icon">
+                        <use href="./images/icons.svg#icon-advantage-img1"></use>
+                    </svg>
+                </div>
                 <h3 class="advantage-title">Увага до деталей</h3>
                 <p class="advantage-text">Ідейні бачення, а також початок повсякденної роботи з формування позиції.</p>
             </li>
             <li class="advantage-item">
+                <div class="advantage-item-icon">
+                    <svg class="advantage-icon">
+                        <use href="./images/icons.svg#icon-advantage-img2"></use>
+                    </svg>
+                </div>
                 <h3 class="advantage-title">Пунктуальність</h3>
                 <p class="advantage-text">Мета организації, в особливості ж рамки та місце навчання кадрів тягне за собою.</p>
             </li>
             <li class="advantage-item">
+                <div class="advantage-item-icon">
+                    <svg class="advantage-icon">
+                        <use href="./images/icons.svg#icon-advantage-img3"></use>
+                    </svg>
+                </div>
                 <h3 class="advantage-title">Планування</h3>
                 <p class="advantage-text">Так само консультація з широким активом значною мірою зумовлює.</p>
             </li>
             <li class="advantage-item">
+                <div class="advantage-item-icon">
+                    <svg class="advantage-icon">
+                        <use href="./images/icons.svg#icon-advantage-img4"></use>
+                    </svg>
+                </div>
                 <h3 class="advantage-title">Сучасні технології</h3>
                 <p class="advantage-text">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
             </li>
