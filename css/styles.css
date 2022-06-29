@@ -365,6 +365,43 @@ ul {
   fill: currentColor;
 }
 
+/* Section 5 Clients ------------------------- */
+
+.clients-list {
+  display: flex;
+}
+
+.clients-item {
+  width: 170px;
+  height: 92px;
+}
+
+.clients-item + .clients-item {
+  margin-left: 30px;
+}
+
+.clients-link {
+  display: flex;
+  fill: var(--color-icon);
+  border: 1px solid var(--color-icon);
+  border-radius: 4px;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.clients-link:hover,
+.clients-link:focus {
+  border-color: var(--color-accent);
+  fill: var(--color-accent);
+}
+
+.clients-logo {
+  height: 60px;
+  width: 106px;
+}
+
 /* Footer ------------------------------------ */
 
 .footer {
